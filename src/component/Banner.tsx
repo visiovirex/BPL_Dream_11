@@ -33,7 +33,7 @@ function Banner() {
           </p>
 
           {/* CTA */}
-          <button className="mt-7 rounded-xl bg-[#E7FE29] px-6 py-3 font-bold text-black shadow-lg shadow-[#E7FE29]/20 outline outline-2 outline-offset-4 outline-[#E7FE29] transition-all duration-300 hover:scale-105 hover:bg-[#d9f51f] active:scale-95">
+          <button className="mt-7 rounded-xl bg-[#E7FE29] px-6 py-3 font-bold text-black shadow-lg shadow-[#E7FE29]/20 outline-2 outline-offset-4 outline-[#E7FE29] transition-all duration-300 hover:scale-105 hover:bg-[#d9f51f] active:scale-95">
             Claim Free Credit
           </button>
         </div>

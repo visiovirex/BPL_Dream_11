@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 function Navbar() {
   return (
     <nav className="bg-[#FEFEFE] shadow-sm">
-      <div className="container mx-auto flex items-center justify-between px-4 py-3 sm:py-4">
+      <div className="container mx-auto flex items-center justify-between px-4 py-1 sm:py-4">
 
         {/* Logo */}
         <a href="/">
