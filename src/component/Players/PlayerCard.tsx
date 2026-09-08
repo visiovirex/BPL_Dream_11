@@ -1,10 +1,12 @@
 import { FaFlag, FaRegUserCircle } from "react-icons/fa";
 import type { PlayersType } from "../../types/PlayerType";
+import { useState } from "react";
 
 function PlayerCard({ player }: { player: PlayersType }) {
+  const [isSelected, setIsSelected] = useState(false);
+
   return (
     <div className="group overflow-hidden rounded-2xl bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-      
       {/* Player Image */}
       <figure className="relative h-52 overflow-hidden bg-base-200 sm:h-60 lg:h-64">
         <img
@@ -23,7 +25,6 @@ function PlayerCard({ player }: { player: PlayersType }) {
 
       {/* Card Content */}
       <div className="card-body gap-3 p-4 sm:gap-4 sm:p-5">
-        
         {/* Name & Origin */}
         <div>
           <h2 className="flex items-center gap-2 text-lg font-bold sm:text-xl">
@@ -62,7 +63,6 @@ function PlayerCard({ player }: { player: PlayersType }) {
 
         {/* Price & Action */}
         <div className="flex flex-col gap-4 border-t border-base-300 pt-4 sm:flex-row sm:items-center sm:justify-between">
-          
           <div>
             <p className="text-[10px] uppercase text-base-content/50 sm:text-xs">
               Player Price
@@ -73,8 +73,12 @@ function PlayerCard({ player }: { player: PlayersType }) {
             </p>
           </div>
 
-          <button className="btn btn-primary w-full rounded-xl px-4 text-sm font-semibold shadow-sm transition-all hover:scale-105 sm:w-auto sm:px-5 sm:text-base">
-            Choose Player
+          <button
+            onClick={() => setIsSelected(true)}
+            disabled={isSelected === true ? true : false}
+            className="btn btn-primary w-full rounded-xl px-4 text-sm font-semibold shadow-sm transition-all hover:scale-105 sm:w-auto sm:px-5 sm:text-base"
+          >
+            {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
       </div>

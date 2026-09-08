@@ -1,16 +1,17 @@
+import { AiFillDollarCircle } from "react-icons/ai";
 import Logo from "../assets/logo.png";
+import { useState } from "react";
 
 function Navbar() {
+
+  const [coin, setCoin] = useState(500000);
+
   return (
     <nav className="bg-[#FEFEFE] shadow-sm">
       <div className="container mx-auto flex items-center justify-between px-4 py-1 sm:py-4">
-
         {/* Logo */}
         <a href="/">
-          <img
-            src={Logo}
-            alt="Dream 11"
-          />
+          <img src={Logo} alt="Dream 11" />
         </a>
 
         {/* Navigation */}
@@ -40,10 +41,13 @@ function Navbar() {
           </li>
         </ul>
 
+        <h2 className="font-bold text-2xl flex items-center gap-1 text-black">
+          <AiFillDollarCircle />
+          {coin}
+        </h2>
+
         {/* Mobile Menu Button */}
-        <button className="btn btn-ghost btn-sm sm:hidden">
-          ☰
-        </button>
+        <button className="btn btn-ghost btn-sm sm:hidden">☰</button>
       </div>
     </nav>
   );
