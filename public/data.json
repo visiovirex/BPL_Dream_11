@@ -6,7 +6,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
     "battingStyle": "Left-hand Bat",
-    "price": 15000000
+    "price": 15000
   },
   {
     "playerName": "Virat Kohli",
@@ -15,7 +15,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Right-hand Bat",
-    "price": 18000000
+    "price": 18000
   },
   {
     "playerName": "Babar Azam",
@@ -24,7 +24,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 17000000
+    "price": 17000
   },
   {
     "playerName": "Rashid Khan",
@@ -33,7 +33,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Leg Break",
     "battingStyle": "Right-hand Bat",
-    "price": 16000000
+    "price": 16000
   },
   {
     "playerName": "Ben Stokes",
@@ -42,7 +42,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Fast Medium",
     "battingStyle": "Left-hand Bat",
-    "price": 15500000
+    "price": 15500
   },
   {
     "playerName": "Jasprit Bumrah",
@@ -51,7 +51,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-hand Bat",
-    "price": 17500000
+    "price": 17500
   },
   {
     "playerName": "Kane Williamson",
@@ -60,7 +60,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 14500000
+    "price": 14500
   },
   {
     "playerName": "Trent Boult",
@@ -69,7 +69,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast Medium",
     "battingStyle": "Left-hand Bat",
-    "price": 14000000
+    "price": 14000
   },
   {
     "playerName": "Andre Russell",
@@ -78,7 +78,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-hand Bat",
-    "price": 16500000
+    "price": 16500
   },
   {
     "playerName": "Mohammad Rizwan",
@@ -87,7 +87,7 @@
     "playerType": "Wicket-Keeper Batter",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Right-hand Bat",
-    "price": 13500000
+    "price": 13500
   },
   {
     "playerName": "Rohit Sharma",
@@ -96,7 +96,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 17500000
+    "price": 17500
   },
   {
     "playerName": "Pat Cummins",
@@ -105,7 +105,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-hand Bat",
-    "price": 16500000
+    "price": 16500
   },
   {
     "playerName": "David Warner",
@@ -114,7 +114,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Leg Break",
     "battingStyle": "Left-hand Bat",
-    "price": 15000000
+    "price": 15000
   },
   {
     "playerName": "Glenn Maxwell",
@@ -123,7 +123,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-hand Bat",
-    "price": 14500000
+    "price": 14500
   },
   {
     "playerName": "Jos Buttler",
@@ -132,7 +132,7 @@
     "playerType": "Wicket-Keeper Batter",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Right-hand Bat",
-    "price": 16000000
+    "price": 16000
   },
   {
     "playerName": "Shaheen Afridi",
@@ -141,7 +141,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
     "battingStyle": "Left-hand Bat",
-    "price": 15500000
+    "price": 15500
   },
   {
     "playerName": "Quinton de Kock",
@@ -150,7 +150,7 @@
     "playerType": "Wicket-Keeper Batter",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Left-hand Bat",
-    "price": 14000000
+    "price": 14000
   },
   {
     "playerName": "Kagiso Rabada",
@@ -159,7 +159,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-hand Bat",
-    "price": 15000000
+    "price": 15000
   },
   {
     "playerName": "Nicholas Pooran",
@@ -168,7 +168,7 @@
     "playerType": "Wicket-Keeper Batter",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Left-hand Bat",
-    "price": 13500000
+    "price": 13500
   },
   {
     "playerName": "Ravindra Jadeja",
@@ -177,6 +177,6 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
     "battingStyle": "Left-hand Bat",
-    "price": 15500000
+    "price": 15500
   }
 ]

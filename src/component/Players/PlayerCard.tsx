@@ -1,9 +1,38 @@
 import { FaFlag, FaRegUserCircle } from "react-icons/fa";
 import type { PlayersType } from "../../types/PlayerType";
-import { useState } from "react";
+import { useState, type Dispatch, type SetStateAction } from "react";
+import { toast } from "react-toastify";
 
-function PlayerCard({ player }: { player: PlayersType }) {
+interface AvailablePlayerProps {
+  player: PlayersType;
+  coin: number;
+  setCoin: Dispatch<SetStateAction<number>>;
+  selectedPlayers: PlayersType[];
+  setSelectedPlayers: Dispatch<SetStateAction<PlayersType[]>>;
+}
+
+function PlayerCard({
+  player,
+  coin,
+  setCoin,
+  selectedPlayers,
+  setSelectedPlayers,
+}: AvailablePlayerProps) {
   const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelectPlayer = () => {
+    setIsSelected(true);
+    const newCoinPrice = coin - player.price;
+    if (newCoinPrice >= 0) {
+      setCoin(newCoinPrice);
+      toast.success(`${player.playerName} is purchesed succesfully.`);
+    } else {
+      toast.error("Coin is Low!!!:(");
+    }
+
+    // selected players
+    setSelectedPlayers([...selectedPlayers, player]);
+  };
 
   return (
     <div className="group overflow-hidden rounded-2xl bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -74,7 +103,7 @@ function PlayerCard({ player }: { player: PlayersType }) {
           </div>
 
           <button
-            onClick={() => setIsSelected(true)}
+            onClick={handleSelectPlayer}
             disabled={isSelected === true ? true : false}
             className="btn btn-primary w-full rounded-xl px-4 text-sm font-semibold shadow-sm transition-all hover:scale-105 sm:w-auto sm:px-5 sm:text-base"
           >

@@ -1,10 +1,10 @@
 import { AiFillDollarCircle } from "react-icons/ai";
 import Logo from "../assets/logo.png";
-import { useState } from "react";
 
-function Navbar() {
 
-  const [coin, setCoin] = useState(500000);
+function Navbar({coin}:{coin: number}) {
+
+  
 
   return (
     <nav className="bg-[#FEFEFE] shadow-sm">
